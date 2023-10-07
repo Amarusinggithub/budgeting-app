@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(246, 247, 252);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(246, 247, 252);
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  border-radius: 7px;
+  background: rgb(255, 255, 255);
+  box-shadow: 23px 28px 16px -25px rgba(0, 0, 0, 0.1);
+  height: 240px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.card input {
+  caret: 2px;
+  transition: all 0.5s;
+  font-size: 14px;
+  border: 2px solid black;
+  height: 30px;
+  border-radius: 7px;
+  padding-left: 10px;
+  /* outline: none; */
+  border: 0.5px;
+}
+
+.card button {
+  color: white;
+  background-color: rgb(86, 106, 255);
+  border-radius: 10px;
+  border: none;
+  height: 30px;
+}
+
+.budget-expenses {
+  display: flex;
+  flex-direction: row;
+}
+
+.budget-display {
+  background-color: rgb(86, 106, 255);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  height: 110px;
+  width: 570px;
+  box-shadow: 23px 28px 16px -25px rgba(0, 0, 0, 0.1);
+  padding-left: 30px;
+}
+
+.budget-display input {
+  border: none;
+  background-color: rgb(86, 106, 255);
+  color: white;
+  width: 100px;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  height: 110px;
+  width: 600px;
+  box-shadow: 23px 28px 16px -25px rgba(0, 0, 0, 0.1);
+  background-color: rgb(255, 255, 255);
+}

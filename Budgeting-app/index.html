@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BudgetBuddy</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="budget-expenses">
+        <div class="card">
+          <h3>Budget</h3>
+          <input type="text" placeholder="Enter Total Amount" />
+          <button class="set-budget-button">Set Budget</button>
+        </div>
+        <div class="card">
+          <h3>Expenses</h3>
+          <input type="text" placeholder="Name" /><input
+            type="text"
+            placeholder="Cost"
+          /><button class="check-amount-button">Check Amount</button>
+        </div>
+      </div>
+      <div class="budget-display">
+        <div class="budget-display-card">
+          <h3>Total Budget</h3>
+          <input type="text" readonly />
+        </div>
+        <div class="budget-display-card">
+          <h3>Expenses</h3>
+          <input type="text" readonly />
+        </div>
+        <div class="budget-display-card">
+          <h3>Balance</h3>
+          <input type="text" readonly />
+        </div>
+      </div>
+      <div class="expense-list">
+        <h3>Expense-List</h3>
+      </div>
+    </div>
+    <script src="src/main.js"></script>
+  </body>
+</html>
