@@ -12,33 +12,39 @@
       <div class="budget-expenses">
         <div class="card">
           <h3>Budget</h3>
-          <input type="text" placeholder="Enter Total Amount" />
-          <button class="set-budget-button">Set Budget</button>
+          <input type="text" id="budget" placeholder="Enter Total Amount" />
+          <button class="set-budget-button" id="budget-button">
+            Set Budget
+          </button>
         </div>
         <div class="card">
           <h3>Expenses</h3>
-          <input type="text" placeholder="Name" /><input
+          <input type="text" id="category-name" placeholder="Name" /><input
             type="text"
+            id="category-cost"
             placeholder="Cost"
-          /><button class="check-amount-button">Check Amount</button>
+          /><button class="check-amount-button" id="amount-button">
+            Check Amount
+          </button>
         </div>
       </div>
       <div class="budget-display">
         <div class="budget-display-card">
           <h3>Total Budget</h3>
-          <input type="text" readonly />
+          <input type="text" readonly id="total-budget" />
         </div>
         <div class="budget-display-card">
           <h3>Expenses</h3>
-          <input type="text" readonly />
+          <input type="text" readonly id="total-expenses" />
         </div>
         <div class="budget-display-card">
           <h3>Balance</h3>
-          <input type="text" readonly />
+          <input type="text" readonly id="total-balance" />
         </div>
       </div>
       <div class="expense-list">
-        <h3>Expense-List</h3>
+        <h3>Expense List</h3>
+        <main id="expense-list"></main>
       </div>
     </div>
     <script src="src/main.js"></script>
